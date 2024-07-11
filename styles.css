@@ -1,0 +1,49 @@
+body {
+    font-family: Trebuchet MS, sans-serif;
+    text-align: center;
+    background-image: url(pinkclouds.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}  
+.body-content {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ADB5BD;
+    max-width: 400px;
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 20px; /* Add some padding around the content */
+}
+
+
+#todoList {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow the list items to wrap onto multiple lines */
+}
+#todoList li {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px; /* Adjust the margin between list items */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px; /* Change the value to adjust the font size */
+    width: 50%; /* Change the value to adjust the width */
+    max-width: 400px; /* Set a maximum width */
+}
+#todoList li:hover {
+    background-color: #f0f0f0;
+}
+.crossed {
+    text-decoration: line-through;
+}
